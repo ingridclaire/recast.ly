@@ -1,8 +1,8 @@
-import VideoList from './VideoList.js'
+import VideoList from './VideoList.js';
 import exampleVideoData from '../data/exampleVideoData.js';
-import VideoPlayer from './VideoPLayer.js'
+import VideoPlayer from './VideoPLayer.js';
 
-var App = () => (
+var App = (props) => (
   <div>
     <nav className="navbar">
       <div className="col-md-6 offset-md-3">
